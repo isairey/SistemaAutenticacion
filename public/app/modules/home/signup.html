@@ -1,0 +1,58 @@
+
+<form ng-submit="signUp()">
+<h5  style="color:{{resultColor}}">{{result}}</h5>
+  <div class="input-field col s6">
+    <input id="icon_prefix" type="text" class="validate" ng-model="name">
+    <label for="icon_prefix">Full name</label>
+  </div>
+  <div class="input-field col s6">
+    <input id="icon_prefix" type="number" class="validate" ng-model="phone">
+    <label for="icon_prefix">Phone</label>
+  </div>
+  <div class="input-field col s6">
+    <input id="icon_prefix" type="text"  ng-model="university">
+    <label for="icon_prefix">University</label>
+  </div>
+  <div class="input-field col s6">
+    <input id="icon_prefix" type="text"  ng-model="address">
+    <label for="icon_prefix">address</label>
+  </div>
+    <div class="input-field col s6">
+    <input id="icon_prefix" type="text"  ng-model="cnic">
+    <label for="icon_prefix">CNIC (without -)</label>
+  </div>
+  <div class="input-field col s6">
+  	<input id="icon_prefix" type="email" class="validate" ng-model="email">
+  	<label for="icon_prefix">Email</label>
+  </div>
+  <div class="input-field col s6">
+  <p>
+<span> Gendar</span>
+    <input class="with-gap"  ng-model="gendar" value="male" type="radio" id="male" />
+    <label for="male">Male</label>
+
+      <input class="with-gap" ng-model="gendar" value="female" type="radio" id="female" />
+      <label for="test2">Female</label>
+  </p>
+  </div>
+
+  <div class="input-field col s6">
+    <input id="icon_prefix" type="text"  ng-model="password">
+    <label for="icon_prefix">Password</label>
+  </div>
+
+  <div class="input-field col s6">
+    <input id="icon_prefix" type="text" class="validate" ng-model="studentId">
+    <label for="icon_prefix">studentID#</label>
+  </div>
+<div class="row">
+  <div class="file-field  col s6 input-field">
+    <div class="btn">
+      <span>Upload Image</span>
+      <input type="file" />
+    </div>
+  </div>
+</div> 
+  <button type="submit" class="btn btn-warning red"> Sign up</button>
+
+</form>

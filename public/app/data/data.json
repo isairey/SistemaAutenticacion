@@ -1,0 +1,56 @@
+{
+  "events": [{
+    "event1": {
+      "description": "",
+      "location": "",
+      "rating": "",
+      "title": ""
+    }
+  }],
+  "marketing": [{
+    "address": "",
+    "email": "muratza@gmail.com",
+    "merchantId": "211aa",
+    "name": "Murtaza",
+    "phone": "muratza",
+    "reference": "",
+    "sales": [{
+      "dated": "23/12/12",
+      "location": "Comsats",
+      "profit": 23000,
+      "ticketsSale": 21
+    }],
+    "sellerLevel": 1,
+    "statistics": [{
+      "Month": "january",
+      "UserAdded": 60,
+      "profitmade": -23000,
+      "ticketSold": 123
+    }],
+    "university": ""
+  }],
+  "sales": [{
+    "dated": "23/12/14",
+    "eventId": "",
+    "eventName": "",
+    "merchantId": "adadasda",
+    "name": "asdad",
+    "tickets": 2,
+    "userId": "2212121ka"
+  }],
+  "users": [{
+    "ticket_single": 1,
+    "ticket_couple": 2,
+    "status":"not paid",
+    "uid": 12321312312321,
+    "vcard": {
+      "university": "Foundation University",
+      "address": "abacac",
+      "cnic": "37405-6475589-1",
+      "email": "ainunhaq@hotmail.com",
+      "name": "ain un haq",
+      "phone": "03315492778",
+      "studentId": ""
+    }
+  }]
+}

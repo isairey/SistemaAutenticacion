@@ -1,0 +1,33 @@
+
+<section ng-include="'app/modules/admin/crud.html'" > </section>
+
+  <section class="container z-depth-4">
+    <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s4">
+              <img ng-src="https://firebasestorage.googleapis.com/v0/b/one-link-921d7.appspot.com/o/ain.jpg?alt=media&token=f8df59e2-802e-45dd-bbae-f7d9571ad2ab" class="responsive-img circle"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s8">
+              <span class="black-text">
+   <h3 class="left-align hide-on-small-only">{{x.name}}</h3>
+   <p>
+      <b>Company Name </b> :  {{x.companyName}}   <br/>
+      <b>Designation </b> :  {{x.designation}}   <br/>
+      <b>Phone </b> :  {{x.phoneNumber}}   <br/>
+      <b>Email </b> :  {{x.email}}   <br/>
+      <b>Address</b> :  {{x.address}}   <br/>
+      <b>Address Company (optional)</b> :  {{x.addressCompany}}   <br/>
+   </p>        </span>
+            </div>
+            
+            <div style="margin:50px;"">
+<qrcode version="{{x.qr.version}}" error-correction-level="{{x.qr.level}}" size="{{x.qr.size}}" data="{{x.phone}}" href="{{x.qr.href}}" download></qrcode>
+<div class="center-align"><span> QR-Code </span> </div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+  </section>

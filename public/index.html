@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+<base href="/">  
+  <title>Online Ticket Booking System</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="content/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="content/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+
+
+
+<header ng-include="'app/modules/home/header.html'"></header>
+
+<section ng-hide="hideX">
+<main ng-view></main>
+</section>  
+<!-- <div ng-show="showX">
+
+    <ui-view> Working fine! </ui-view>
+</div>
+ -->
+<footer class="page-footer purple" ng-include="'app/modules/home/footer.html'" style="background:url(content/img/bg-branding.jpg);background-blend-mode: saturation;color:black "> </footer>
+
+
+  
+
+
+
+  
+  <!-- angularjs files -->
+  <script src="app/lib/bower_components/angular/angular.js"></script>
+  <script src="app/lib/bower_components/angular-route/angular-route.js"></script>
+  <script src="app/lib/bower_components/angular-aria/angular-aria.js"></script>
+  <script src="app/lib/bower_components/angular-animate/angular-animate.js"></script>
+  <script src="app/lib/bower_components/angularfire/dist/angularfire.js"></script>
+  <script src="app/lib/bower_components/firebase/firebase.js"></script>
+  <script src="app/lib/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <!-- QR Code Library https://github.com/monospaced/angular-qrcode -->
+ <script src="app/lib/bower_components/qrcode-generator/js/qrcode.js"></script>
+ <script src="app/lib/angular-qrcode/angular-qrcode.js"></script>
+
+
+
+  <!-- app.js files -->
+   <script src="app/app.js"></script>
+   <script src="app/routes.js"></script>
+
+   <!-- modules -->
+
+   <script src="app/modules/home/homeController.js"></script>
+   <script src="app/modules/admin/adminController.js"></script>
+   
+
+
+
+<!-- my Firebase App data -->
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCK5SjnVzODqMlKP2_I9NWX4mzt2u4NqRU",
+    authDomain: "ticket-booking-system.firebaseapp.com",
+    databaseURL: "https://ticket-booking-system.firebaseio.com",
+    storageBucket: "ticket-booking-system.appspot.com",
+    messagingSenderId: "141634320468"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+  <!-- local Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="content/js/materialize.js"></script>
+  <script src="content/js/init.js"></script>
+
+
+  </body>
+</html>

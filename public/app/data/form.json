@@ -1,0 +1,32 @@
+{
+	"site_data": [{
+			"site_title": "New year Party",
+			"site_bio": "a great party",
+			"site_year": "2017"
+		}
+
+	],
+	"users": [{
+		"first_name": "Shahan",
+		"last_name": "Butt",
+		"cnic": "37405-6444585-1",
+		"phone": "0333-1999985",
+		"email": "butt@atrixdigital.com",
+		"address": "House no.113, lane#1, Ali Town, Adyala Road, Rawalpindi",
+		"tickets":12,
+		"validation":false
+
+	}, {
+		"first_name": "Shahan",
+		"last_name": "Butt",
+		"cnic": "37405-6444585-1",
+		"phone": "0333-1999985",
+		"email": "butt@atrixdigital.com",
+		"address": "House no.113, lane#1, Ali Town, Adyala Road, Rawalpindi",
+		"tickets":2,
+		"validation":true
+
+	}]
+
+
+}

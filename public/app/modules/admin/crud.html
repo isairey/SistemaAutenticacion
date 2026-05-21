@@ -1,0 +1,72 @@
+
+<div class="container-fluid">
+<table class="hoverable">
+  <thead>
+    <tr>
+      <th data-field="id" >Serial#</th>
+      <th data-field="name">Full Name</th>
+      <th data-field="price">Phone</th> 
+      <th data-field="price">Email</th>
+      <th data-field="price">University</th>
+      <th data-field="price">Tickets</th>   
+         <th data-field="price">Tickets</th>
+      <th data-field="price">Address</th>
+       <th data-field="price">Status</th>
+      <th data-field="price">Amount</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <form>
+      <td >
+      <div class="input-field">
+            <input id="serialNo" type="text" ng-model="x.vcard.StudentId" >
+              <label for="serialNo">StudentID#</label>
+          </div>
+          </td>
+      <td><div class="input-field">
+            <input id="name" type="text" class="validate" ng-model="x.vcard.name">
+              <label for="name">Name</label>
+          </div></td>
+      <td><div class="input-field">
+            <input id="phone" type="text" class="validate"  ng-model="x.vcard.phone">
+              <label for="phone">Phone</label>
+          </div></td>
+          <td><div class="input-field">
+            <input id="email" type="text" class="validate"   ng-model="x.vcard.email">
+              <label for="email">Email</label>
+          </div></td>
+          <td><div class="input-field">
+            <input id="University" type="text" class="validate"  ng-model="x.vcard.name">
+              <label for="University">Uni</label>
+          </div></td>
+          <td><div class="input-field">
+            <input id="tickets" type="text" class="validate"  ng-model="x.tickets_single">
+              <label for="tickets">Ticket-single</label>
+          </div></td>
+           <td><div class="input-field">
+            <input id="tickets" type="text" class="validate"  ng-model="x.tickets_double">
+              <label for="tickets">Ticket-couple</label>
+          </div></td>
+
+          <td>
+          <div class="input-field">
+            <input id="address" type="text" class="validate"  ng-model="x.vcard.address">
+              <label for="address">Address</label>
+          </div></td>
+           <td>
+          <div class="input-field"  ng-model="x.status">
+           <input id="status" type="text" class="validate"  ng-model="x.status">
+          </div></td>
+          <td>
+          <div class="input-field"  ng-model="x.cost">
+            <input id="cost" type="text" class="validate"  ng-model="x.cost">
+
+          </div></td>
+          <td> <button type="submit" class="btn black">submit</button> </td>
+          </form>
+           </tr>
+
+  </tbody>
+</table>
