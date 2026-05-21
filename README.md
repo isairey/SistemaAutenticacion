@@ -187,7 +187,7 @@ Interfaz frontend moderna.
 # 📂 Estructura del proyecto
 
 ```bash
-firebase-auth/
+SistemaAutenticacion/
 │
 ├── app/
 │   ├── controllers/
@@ -287,7 +287,7 @@ Registro/Login → Validación Firebase → Sesión activa → Acceso autorizado
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/usuario/firebase-auth.git
+git clone https://github.com/isairey/SistemaAutenticacion.git
 ```
 
 ---
@@ -295,7 +295,7 @@ git clone https://github.com/usuario/firebase-auth.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd firebase-auth
+cd SistemaAutenticacion
 ```
 
 ---
@@ -369,24 +369,8 @@ $scope.signUp = function(){
 
 ---
 
-# 📸 Vista previa
 
-## 🖥️ Interfaces del sistema
 
-<div align="center">
-
-### 🔐 Pantalla de login
-![Login](https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1200)
-
-### 📧 Registro de usuarios
-![Signup](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200)
-
-### ☁️ Firebase Authentication
-![Firebase](https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200)
-
-</div>
-
----
 
 # 🧠 Objetivos del proyecto
 
@@ -448,11 +432,12 @@ git push origin feature/nueva-funcionalidad
 
 <div align="center">
 
-## Moeid Saleem Khan — Team Leader ADS Academy
+## Isai Reyes - Full Stack & AI Developer
 
-Desarrollador apasionado por autenticación cloud, Firebase y aplicaciones web modernas 🚀
+Desarrollador apasionado por plataformas SaaS, inteligencia artificial y arquitecturas empresariales modernas 🚀
 
 </div>
+
 
 ---
 
